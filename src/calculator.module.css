@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .result {
+    width: 95%;
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 22px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+}
+  
